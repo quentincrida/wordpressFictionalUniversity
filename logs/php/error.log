@@ -4,3 +4,28 @@
 [07-Sep-2020 07:02:25 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '(' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
 [07-Sep-2020 08:20:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 12
 [07-Sep-2020 10:27:22 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[08-Sep-2020 11:15:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 21 and exactly 1 expected in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php:7069
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(21): wp_get_post_parent_id()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/qcrida/L...')
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
+#4 {main}
+  thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7069
+[08-Sep-2020 11:15:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 21 and exactly 1 expected in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php:7069
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(21): wp_get_post_parent_id()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/qcrida/L...')
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
+#4 {main}
+  thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7069
+[21-Sep-2020 06:29:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 71
+[05-Oct-2020 05:35:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contents() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:59
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
+#3 {main}
+  thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 59
+[05-Oct-2020 06:24:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 17
