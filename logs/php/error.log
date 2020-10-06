@@ -29,3 +29,68 @@ Stack trace:
 #3 {main}
   thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 59
 [05-Oct-2020 06:24:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 17
+[06-Oct-2020 04:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueu_style() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:13
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plug in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[06-Oct-2020 04:45:57 UTC] PHP Warning:  Use of undefined constant get_theme - assumed 'get_theme' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[06-Oct-2020 04:45:57 UTC] PHP Stack trace:
+[06-Oct-2020 04:45:57 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[06-Oct-2020 04:45:57 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[06-Oct-2020 04:45:57 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[06-Oct-2020 04:45:57 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[06-Oct-2020 04:45:57 UTC] PHP   5. get_header() /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:1
+[06-Oct-2020 04:45:57 UTC] PHP   6. locate_template() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[06-Oct-2020 04:45:57 UTC] PHP   7. load_template() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[06-Oct-2020 04:45:57 UTC] PHP   8. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[06-Oct-2020 04:45:57 UTC] PHP   9. wp_head() /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:6
+[06-Oct-2020 04:45:57 UTC] PHP  10. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/general-template.php:3006
+[06-Oct-2020 04:45:57 UTC] PHP  11. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[06-Oct-2020 04:45:57 UTC] PHP  12. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[06-Oct-2020 04:45:57 UTC] PHP  13. wp_enqueue_scripts() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[06-Oct-2020 04:45:57 UTC] PHP  14. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1999
+[06-Oct-2020 04:45:57 UTC] PHP  15. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[06-Oct-2020 04:45:57 UTC] PHP  16. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[06-Oct-2020 04:45:57 UTC] PHP  17. university_files() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[06-Oct-2020 04:45:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function file_uri() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:13
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php( in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[06-Oct-2020 04:46:00 UTC] PHP Warning:  Use of undefined constant get_theme - assumed 'get_theme' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[06-Oct-2020 04:46:00 UTC] PHP Stack trace:
+[06-Oct-2020 04:46:00 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[06-Oct-2020 04:46:00 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[06-Oct-2020 04:46:00 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[06-Oct-2020 04:46:00 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[06-Oct-2020 04:46:00 UTC] PHP   5. get_header() /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:1
+[06-Oct-2020 04:46:00 UTC] PHP   6. locate_template() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[06-Oct-2020 04:46:00 UTC] PHP   7. load_template() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[06-Oct-2020 04:46:00 UTC] PHP   8. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[06-Oct-2020 04:46:00 UTC] PHP   9. wp_head() /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:6
+[06-Oct-2020 04:46:00 UTC] PHP  10. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/general-template.php:3006
+[06-Oct-2020 04:46:00 UTC] PHP  11. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[06-Oct-2020 04:46:00 UTC] PHP  12. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[06-Oct-2020 04:46:00 UTC] PHP  13. wp_enqueue_scripts() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[06-Oct-2020 04:46:00 UTC] PHP  14. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1999
+[06-Oct-2020 04:46:00 UTC] PHP  15. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[06-Oct-2020 04:46:00 UTC] PHP  16. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[06-Oct-2020 04:46:00 UTC] PHP  17. university_files() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[06-Oct-2020 04:46:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function file_uri() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:13
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php( in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
