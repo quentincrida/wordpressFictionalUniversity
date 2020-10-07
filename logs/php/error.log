@@ -94,3 +94,4 @@ Stack trace:
 #4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
 #5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
 #6 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php( in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[06-Oct-2020 14:23:24 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 32
