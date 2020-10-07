@@ -139,3 +139,5 @@ Stack trace:
 #5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
 #6 /Users/qcrida/Local Sites/fictional-universi in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
 [07-Oct-2020 09:30:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[07-Oct-2020 10:50:27 UTC] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 40
+[07-Oct-2020 10:50:27 UTC] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 40
