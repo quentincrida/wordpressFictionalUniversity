@@ -117,3 +117,25 @@ Stack trace:
 #2 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
 #3 {main}
   thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 63
+[07-Oct-2020 09:18:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 33
+[07-Oct-2020 09:21:10 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 45
+[07-Oct-2020 09:26:54 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[07-Oct-2020 09:26:55 UTC] PHP Stack trace:
+[07-Oct-2020 09:26:55 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[07-Oct-2020 09:26:55 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[07-Oct-2020 09:26:55 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[07-Oct-2020 09:26:55 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[07-Oct-2020 09:26:55 UTC] PHP   5. get_header() /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:1
+[07-Oct-2020 09:26:55 UTC] PHP   6. locate_template() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[07-Oct-2020 09:26:55 UTC] PHP   7. load_template() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[07-Oct-2020 09:26:55 UTC] PHP   8. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[07-Oct-2020 09:26:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_type_archive_link() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:22
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/qcrida/L...', true, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(1): get_header()
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/qcrida/L...')
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#6 /Users/qcrida/Local Sites/fictional-universi in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[07-Oct-2020 09:30:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
