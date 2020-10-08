@@ -141,3 +141,24 @@ Stack trace:
 [07-Oct-2020 09:30:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
 [07-Oct-2020 10:50:27 UTC] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 40
 [07-Oct-2020 10:50:27 UTC] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 40
+[08-Oct-2020 09:39:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php:36
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
+#3 {main}
+  thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 36
+[08-Oct-2020 09:41:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php:34
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
+#3 {main}
+  thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 34
+[08-Oct-2020 09:41:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php:34
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/qcrida/L...')
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/index.php(17): require('/Users/qcrida/L...')
+#3 {main}
+  thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 34
