@@ -20,6 +20,13 @@
     </div>
   <div>
   </div class="generic-content"><?php the_content();?>
+    <?php 
+    
+    $relatedPrograms = get_field('related_programs');
+    print_r($relatedPrograms);
+    ?>
+ 
+
   </div>
 
    <?php }
