@@ -187,3 +187,4 @@ Stack trace:
   thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 19
 [12-Oct-2020 13:26:42 UTC] PHP Parse error:  syntax error, unexpected 'post_thumbnail' (T_STRING) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
 [12-Oct-2020 13:26:43 UTC] PHP Parse error:  syntax error, unexpected 'post_thumbnail' (T_STRING) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
+[13-Oct-2020 05:15:42 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 12
