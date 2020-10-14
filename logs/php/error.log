@@ -198,3 +198,4 @@ Stack trace:
   thrown in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
 [13-Oct-2020 09:02:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 6
 [13-Oct-2020 09:55:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 41
+[14-Oct-2020 05:54:59 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-campus.php on line 16
