@@ -75,3 +75,8 @@
 [09-Oct-2020 11:14:27] NOTICE: exiting, bye-bye!
 [12-Oct-2020 10:03:48] NOTICE: fpm is running, pid 54287
 [12-Oct-2020 10:03:48] NOTICE: ready to handle connections
+[14-Oct-2020 12:44:00] NOTICE: Terminating ...
+[14-Oct-2020 12:44:00] NOTICE: Terminating ...
+[14-Oct-2020 12:44:00] NOTICE: exiting, bye-bye!
+[14-Oct-2020 12:44:06] NOTICE: fpm is running, pid 72927
+[14-Oct-2020 12:44:06] NOTICE: ready to handle connections
