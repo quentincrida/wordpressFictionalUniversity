@@ -92,8 +92,8 @@ if (currentTask == "devFast") {
         perform a traditional refresh even for CSS changes as well.
         */
 
-      // server._watch(["./**/*.php", "./**/*.js"])
-      server._watch(["./**/*.php", "!./functions.php"])
+      server._watch(["./**/*.php", "./**/*.js"])
+      // server._watch(["./**/*.php", "!./functions.php"]) (SWAPPED IN LINE WITH ABOVE COMMENT)
     },
     public: "http://localhost:3000",
     publicPath: "http://localhost:3000/",
