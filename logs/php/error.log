@@ -233,3 +233,19 @@ Stack trace:
 [02-Dec-2020 06:21:53 UTC] PHP   5. wp_version_check() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
 [02-Dec-2020 06:21:53 UTC] PHP   6. trigger_error() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/update.php:168
 [02-Dec-2020 07:13:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[02-Dec-2020 08:00:55 UTC] PHP Warning:  require(/Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php): failed to open stream: No such file or directory in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[02-Dec-2020 08:00:55 UTC] PHP Stack trace:
+[02-Dec-2020 08:00:55 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[02-Dec-2020 08:00:55 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[02-Dec-2020 08:00:55 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[02-Dec-2020 08:00:55 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[02-Dec-2020 08:00:55 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[02-Dec-2020 08:00:55 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:514
+[02-Dec-2020 08:00:55 UTC] PHP Fatal error:  require(): Failed opening required '/Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[02-Dec-2020 08:00:55 UTC] PHP Stack trace:
+[02-Dec-2020 08:00:55 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[02-Dec-2020 08:00:55 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[02-Dec-2020 08:00:55 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[02-Dec-2020 08:00:55 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[02-Dec-2020 08:00:55 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[02-Dec-2020 08:00:55 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:514
