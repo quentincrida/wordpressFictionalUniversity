@@ -250,3 +250,5 @@ Stack trace:
 [02-Dec-2020 08:00:55 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
 [02-Dec-2020 08:00:55 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:514
 [03-Dec-2020 06:51:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 13
+[07-Dec-2020 07:38:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 69
+[07-Dec-2020 07:38:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 69
