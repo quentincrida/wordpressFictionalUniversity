@@ -260,3 +260,27 @@ Stack trace:
 [10-Dec-2020 13:09:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 49
 [10-Dec-2020 13:11:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 49
 [11-Dec-2020 07:49:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php on line 52
+[14-Dec-2020 07:25:30 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 6
+[14-Dec-2020 07:25:30 UTC] PHP Stack trace:
+[14-Dec-2020 07:25:30 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[14-Dec-2020 07:25:30 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[14-Dec-2020 07:25:30 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[14-Dec-2020 07:25:30 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[14-Dec-2020 07:26:00 UTC] PHP Warning:  Use of undefined constant get_search_query - assumed 'get_search_query' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 6
+[14-Dec-2020 07:26:00 UTC] PHP Stack trace:
+[14-Dec-2020 07:26:00 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[14-Dec-2020 07:26:00 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[14-Dec-2020 07:26:00 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[14-Dec-2020 07:26:00 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[14-Dec-2020 07:26:08 UTC] PHP Warning:  Use of undefined constant get_search_query - assumed 'get_search_query' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 6
+[14-Dec-2020 07:26:08 UTC] PHP Stack trace:
+[14-Dec-2020 07:26:08 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[14-Dec-2020 07:26:08 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[14-Dec-2020 07:26:08 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[14-Dec-2020 07:26:08 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[14-Dec-2020 07:26:38 UTC] PHP Warning:  Use of undefined constant get_search_query - assumed 'get_search_query' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 6
+[14-Dec-2020 07:26:38 UTC] PHP Stack trace:
+[14-Dec-2020 07:26:38 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[14-Dec-2020 07:26:38 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[14-Dec-2020 07:26:38 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[14-Dec-2020 07:26:38 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
