@@ -52,6 +52,8 @@
 
     //Campus post type
     register_post_type('campus', array(
+        'capability_type' => 'campus',
+        'map_meta_cap' => true,
         'show_in_rest' => true,
         'supports' => array('title', 'editor'),
         'rewrite' => array('slug' => 'campuses'),
