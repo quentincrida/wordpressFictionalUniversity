@@ -284,3 +284,39 @@ Stack trace:
 [14-Dec-2020 07:26:38 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
 [14-Dec-2020 07:26:38 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
 [14-Dec-2020 07:26:38 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[04-Jan-2021 07:32:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'redirectSubsToFrontend' not found or invalid function name in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[04-Jan-2021 07:32:51 UTC] PHP Stack trace:
+[04-Jan-2021 07:32:51 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-Jan-2021 07:32:51 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
+[04-Jan-2021 07:32:51 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-Jan-2021 07:32:51 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[04-Jan-2021 07:33:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'redirectSubsToFrontend' not found or invalid function name in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[04-Jan-2021 07:33:28 UTC] PHP Stack trace:
+[04-Jan-2021 07:33:28 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-Jan-2021 07:33:28 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
+[04-Jan-2021 07:33:28 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-Jan-2021 07:33:28 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[04-Jan-2021 07:34:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'redirectSubsToFrontend' not found or invalid function name in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[04-Jan-2021 07:34:51 UTC] PHP Stack trace:
+[04-Jan-2021 07:34:51 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-Jan-2021 07:34:51 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
+[04-Jan-2021 07:34:51 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-Jan-2021 07:34:51 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[04-Jan-2021 07:35:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'redirectSubsToFrontend' not found or invalid function name in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[04-Jan-2021 07:35:28 UTC] PHP Stack trace:
+[04-Jan-2021 07:35:28 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-Jan-2021 07:35:28 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
+[04-Jan-2021 07:35:28 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-Jan-2021 07:35:28 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[04-Jan-2021 07:36:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'redirectSubsToFrontend' not found or invalid function name in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[04-Jan-2021 07:36:52 UTC] PHP Stack trace:
+[04-Jan-2021 07:36:52 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-Jan-2021 07:36:52 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
+[04-Jan-2021 07:36:52 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-Jan-2021 07:36:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[04-Jan-2021 07:38:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'redirectSubsToFrontend' not found or invalid function name in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[04-Jan-2021 07:38:52 UTC] PHP Stack trace:
+[04-Jan-2021 07:38:52 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[04-Jan-2021 07:38:52 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
+[04-Jan-2021 07:38:52 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[04-Jan-2021 07:38:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
