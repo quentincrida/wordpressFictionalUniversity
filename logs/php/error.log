@@ -320,3 +320,64 @@ Stack trace:
 [04-Jan-2021 07:38:52 UTC] PHP   2. do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:45
 [04-Jan-2021 07:38:52 UTC] PHP   3. WP_Hook->do_action() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
 [04-Jan-2021 07:38:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[04-Jan-2021 14:10:48 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:10:48 UTC] PHP Stack trace:
+[04-Jan-2021 14:10:48 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[04-Jan-2021 14:10:48 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[04-Jan-2021 14:10:48 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[04-Jan-2021 14:10:48 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:10:48 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:10:48 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:53:28 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:53:28 UTC] PHP Stack trace:
+[04-Jan-2021 14:53:28 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[04-Jan-2021 14:53:28 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[04-Jan-2021 14:53:28 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[04-Jan-2021 14:53:28 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:53:28 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:53:28 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:53:28 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:53:28 UTC] PHP Stack trace:
+[04-Jan-2021 14:53:28 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-cron.php:0
+[04-Jan-2021 14:53:28 UTC] PHP   2. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-cron.php:44
+[04-Jan-2021 14:53:28 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:53:28 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:53:28 UTC] PHP   5. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:54:31 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:54:31 UTC] PHP Stack trace:
+[04-Jan-2021 14:54:31 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[04-Jan-2021 14:54:31 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[04-Jan-2021 14:54:31 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[04-Jan-2021 14:54:31 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:54:31 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:54:31 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:54:38 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:54:38 UTC] PHP Stack trace:
+[04-Jan-2021 14:54:38 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[04-Jan-2021 14:54:38 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[04-Jan-2021 14:54:38 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[04-Jan-2021 14:54:38 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:54:38 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:54:38 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:54:38 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:54:38 UTC] PHP Stack trace:
+[04-Jan-2021 14:54:38 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[04-Jan-2021 14:54:38 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[04-Jan-2021 14:54:38 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[04-Jan-2021 14:54:38 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:54:38 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:54:38 UTC] PHP   6. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:54:58 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:54:58 UTC] PHP Stack trace:
+[04-Jan-2021 14:54:58 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-login.php:0
+[04-Jan-2021 14:54:58 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/wp-login.php:12
+[04-Jan-2021 14:54:58 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:54:58 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:54:58 UTC] PHP   5. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[04-Jan-2021 14:55:24 UTC] PHP Warning:  Use of undefined constant ourLoginCSS - assumed 'ourLoginCSS' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 140
+[04-Jan-2021 14:55:24 UTC] PHP Stack trace:
+[04-Jan-2021 14:55:24 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/wp-login.php:0
+[04-Jan-2021 14:55:24 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/wp-login.php:12
+[04-Jan-2021 14:55:24 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[04-Jan-2021 14:55:24 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[04-Jan-2021 14:55:24 UTC] PHP   5. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
