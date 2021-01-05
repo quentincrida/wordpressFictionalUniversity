@@ -381,3 +381,26 @@ Stack trace:
 [04-Jan-2021 14:55:24 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
 [04-Jan-2021 14:55:24 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
 [04-Jan-2021 14:55:24 UTC] PHP   5. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php:525
+[05-Jan-2021 08:38:58 UTC] PHP Warning:  Use of undefined constant is_user_logged_in - assumed 'is_user_logged_in' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 3
+[05-Jan-2021 08:38:58 UTC] PHP Stack trace:
+[05-Jan-2021 08:38:58 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[05-Jan-2021 08:38:58 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[05-Jan-2021 08:38:58 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-Jan-2021 08:38:58 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[05-Jan-2021 08:39:30 UTC] PHP Warning:  Use of undefined constant is_user_logged_in - assumed 'is_user_logged_in' (this will throw an Error in a future version of PHP) in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 3
+[05-Jan-2021 08:39:30 UTC] PHP Stack trace:
+[05-Jan-2021 08:39:30 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[05-Jan-2021 08:39:30 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[05-Jan-2021 08:39:30 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[05-Jan-2021 08:39:30 UTC] PHP   4. include() /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[05-Jan-2021 08:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rewrite.php:173
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-post-type.php(596): add_rewrite_tag('%note%', '([^/]+)', 'note=')
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(1447): WP_Post_Type->add_rewrite_rules()
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php(75): register_post_type('note', Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-settings.php(319): include_once('/Users/qcrida/L...')
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/qcrida/L...')
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/qcrida/L...')
+#6 /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin.php(34): requ in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rewrite.php on line 173
+[05-Jan-2021 08:46:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 88
+[05-Jan-2021 09:02:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 43
