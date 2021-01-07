@@ -47,9 +47,9 @@ function university_files(){
     if (strstr($_SERVER['SERVER_NAME'], 'fictional-university.local')) {
         wp_enqueue_script('main-university-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
     } else {
-        wp_enqueue_script('our_vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.9b825a1812d5ed3ec3d7.js'), NULL, '1.0', true);
-        wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.1b93be6ae8ee0b8bdf2f.js'), NULL, '1.0', true);
-        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.1b93be6ae8ee0b8bdf2f.css'));
+        wp_enqueue_script('our_vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.3e7f3bc7f9a6d8c967b6.js'), NULL, '1.0', true);
+        wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.cc1873b33839d8350443.js'), NULL, '1.0', true);
+        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.cc1873b33839d8350443.css'));
     }
    
     wp_localize_script('main-university-js', 'universityData',  array(
@@ -141,7 +141,7 @@ function ourHeaderUrl() {
 add_action('login_enqueue_scripts', 'ourLoginCSS');
 
 function ourLoginCSS() {
-  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.1b93be6ae8ee0b8bdf2f.css'));
+  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.cc1873b33839d8350443.css'));
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
 }
 
@@ -149,6 +149,18 @@ add_filter('login_headertitle', 'ourLoginTitle');
 
 function ourLoginTitle() {
   return get_bloginfo('name');
+}
+
+//Force Note Posts to be Private
+add_filter('wp_insert_post_data', 'makeNotePrivate');
+
+function makeNotePrivate($data) {
+  if($data['post_type'] == 'note' AND $data['post_status'] != 'trash') {
+    $data['post_status'] = 'private';
+  }
+ 
+  return $data;
+
 }
 
 ?>
