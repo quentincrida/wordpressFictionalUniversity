@@ -404,3 +404,17 @@ Stack trace:
 #6 /Users/qcrida/Local Sites/fictional-university/app/public/wp-admin/admin.php(34): requ in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rewrite.php on line 173
 [05-Jan-2021 08:46:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 88
 [05-Jan-2021 09:02:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 43
+[08-Jan-2021 07:04:48 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 07:04:48 UTC] PHP Stack trace:
+[08-Jan-2021 07:04:48 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 07:04:48 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[08-Jan-2021 07:04:48 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[08-Jan-2021 07:04:48 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[08-Jan-2021 07:04:48 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[08-Jan-2021 07:04:48 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[08-Jan-2021 07:04:48 UTC] PHP Stack trace:
+[08-Jan-2021 07:04:48 UTC] PHP   1. {main}() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:0
+[08-Jan-2021 07:04:48 UTC] PHP   2. require() /Users/qcrida/Local Sites/fictional-university/app/public/index.php:17
+[08-Jan-2021 07:04:48 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[08-Jan-2021 07:04:48 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
+[08-Jan-2021 07:04:48 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
