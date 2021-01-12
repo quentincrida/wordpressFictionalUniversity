@@ -418,3 +418,84 @@ Stack trace:
 [08-Jan-2021 07:04:48 UTC] PHP   3. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-blog-header.php:13
 [08-Jan-2021 07:04:48 UTC] PHP   4. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-load.php:37
 [08-Jan-2021 07:04:48 UTC] PHP   5. require_once() /Users/qcrida/Local Sites/fictional-university/app/public/wp-config.php:77
+[08-Jan-2021 08:02:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:05:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:06:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:06:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(594): wp_insert_post(Array, true, false)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1160): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/cla in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:08:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_currentUser_id() in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:159
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4411): wp_insert_post(Array, false, true)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(3222): wp_update_post(Array)
+#5 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(946): wp_trash_post(133)
+#6 /Users/qcrida/Local Sites/fictional-univ in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 159
+[08-Jan-2021 08:20:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function makeNotePrivate(), 1 passed in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 289 and exactly 2 expected in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:157
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4411): wp_insert_post(Array, false, true)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(3222): wp_update_post(Array)
+#5 /Users/qcrida/Local Sites/fictional-univers in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 157
+[08-Jan-2021 08:21:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function makeNotePrivate(), 1 passed in /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 289 and exactly 2 expected in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:157
+Stack trace:
+#0 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(289): makeNotePrivate(Array)
+#1 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4020): apply_filters('wp_insert_post_...', Array, Array, Array)
+#3 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(4411): wp_insert_post(Array, false, true)
+#4 /Users/qcrida/Local Sites/fictional-university/app/public/wp-includes/post.php(3222): wp_update_post(Array)
+#5 /Users/qcrida/Local Sites/fictional-univers in /Users/qcrida/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 157

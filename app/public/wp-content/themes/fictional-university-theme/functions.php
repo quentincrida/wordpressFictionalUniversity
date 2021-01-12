@@ -6,6 +6,9 @@ function university_custom_rest() {
   register_rest_field('post', 'authorName', array(
     'get_callback' => function() { return get_the_author();}
   ));
+  register_rest_field('note', 'userNoteCount', array(
+    'get_callback' => function() { return count_user_posts(get_current_user_id(), 'note');}
+  ));
 }
 
 add_action('rest_api_init', 'university_custom_rest');
@@ -48,8 +51,8 @@ function university_files(){
         wp_enqueue_script('main-university-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
     } else {
         wp_enqueue_script('our_vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.3e7f3bc7f9a6d8c967b6.js'), NULL, '1.0', true);
-        wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.cc1873b33839d8350443.js'), NULL, '1.0', true);
-        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.cc1873b33839d8350443.css'));
+        wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.6b8ddeccf78b030c8fab.js'), NULL, '1.0', true);
+        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.6b8ddeccf78b030c8fab.css'));
     }
    
     wp_localize_script('main-university-js', 'universityData',  array(
@@ -141,7 +144,7 @@ function ourHeaderUrl() {
 add_action('login_enqueue_scripts', 'ourLoginCSS');
 
 function ourLoginCSS() {
-  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.cc1873b33839d8350443.css'));
+  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.6b8ddeccf78b030c8fab.css'));
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
 }
 
@@ -152,10 +155,14 @@ function ourLoginTitle() {
 }
 
 //Force Note Posts to be Private
-add_filter('wp_insert_post_data', 'makeNotePrivate');
+add_filter('wp_insert_post_data', 'makeNotePrivate', 10, 2);
 
-function makeNotePrivate($data) {
+function makeNotePrivate($data, $postarr) {
   if($data['post_type'] == 'note') {
+    if(count_user_posts(get_current_user_id(), 'note') > 4 AND !$postarr['ID']) {
+      die("You have exceeded your note limit of 5.");
+    }
+
     $data['post_content'] = sanitize_textarea_field($data['post_content']);
     $data['post_title'] = sanitize_text_field($data['post_title']);
 
