@@ -50,9 +50,9 @@ function university_files(){
     if (strstr($_SERVER['SERVER_NAME'], 'fictional-university.local')) {
         wp_enqueue_script('main-university-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
     } else {
-        wp_enqueue_script('our_vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.3e7f3bc7f9a6d8c967b6.js'), NULL, '1.0', true);
-        wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.6b8ddeccf78b030c8fab.js'), NULL, '1.0', true);
-        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.6b8ddeccf78b030c8fab.css'));
+        wp_enqueue_script('our_vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.9e6f838f29d4e167feef.js'), NULL, '1.0', true);
+        wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.37e67737ed5daddd4f13.js'), NULL, '1.0', true);
+        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.37e67737ed5daddd4f13.css'));
     }
    
     wp_localize_script('main-university-js', 'universityData',  array(
@@ -144,7 +144,7 @@ function ourHeaderUrl() {
 add_action('login_enqueue_scripts', 'ourLoginCSS');
 
 function ourLoginCSS() {
-  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.6b8ddeccf78b030c8fab.css'));
+  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.37e67737ed5daddd4f13.css'));
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
 }
 
@@ -160,7 +160,7 @@ add_filter('wp_insert_post_data', 'makeNotePrivate', 10, 2);
 function makeNotePrivate($data, $postarr) {
   if($data['post_type'] == 'note') {
     if(count_user_posts(get_current_user_id(), 'note') > 4 AND !$postarr['ID']) {
-      die("You have exceeded your note limit of 5.");
+      die("You have exceeded your note limit.");
     }
 
     $data['post_content'] = sanitize_textarea_field($data['post_content']);

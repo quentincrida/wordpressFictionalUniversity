@@ -21,7 +21,7 @@ get_header();
       <input class="new-note-title" placeholder="Title"type="text">
       <textarea class="new-note-body" placeholder="Your note here..."></textarea>
       <span class="submit-note">Create Note</span>
-      <span class="note-limit-message">Note limit reached: Delete a message to create space.</span>
+      <span class="note-limit-message">Note limit reached: delete an exisitng note to make room for a new one.</span>
     </div>
 
     <ul class="min-list link-list" id="my-notes">
